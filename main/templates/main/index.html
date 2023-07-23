@@ -1,0 +1,448 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+    Автоподбор12
+{% endblock %}
+
+{% block content %}
+<section id="about" class="about">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-xl-6 col-lg-7" data-aos="fade-right">
+                <img src='{% static "assets/img/about-img.jpg" %}' class="img-fluid" alt="">
+            </div>
+            <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
+                <h3 data-aos="fade-up">Работаем более 5 лет на рынке</h3>
+                <div class="icon-box" data-aos="fade-up">
+                    <i class="bx bx-cube-alt"></i>
+                    <p>
+                        Проверяем авто по 154 параметрам + юр.чистоту
+                    </p>
+                </div>
+
+                <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                    <i class="bx bx-cube-alt"></i>
+                    <p>Не вступаем в сговор с продавцами автомобилей</p>
+                </div>
+
+                <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                    <i class="bx bx-cube-alt"></i>
+                    <p>При проверке используем профоборудование</p>
+                </div>
+
+                <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                    <i class="bx bx-cube-alt"></i>
+                    <p>Добиваемся снижения цены автомобиля от 20 000 руб.</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="steps" class="steps section-bg">
+    <h3 data-aos="fade-up" align="center">Этапы подбора автомобиля</h3>
+    <div class="container">
+        <div class="row no-gutters">
+
+            <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in">
+                <span>01</span>
+                <h4>Ваша заявка на подбор автомобиля</h4>
+            </div>
+
+            <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in" data-aos-delay="100">
+                <span>02</span>
+                <h4>Обсуждение всех параметров желаемого автомобиля</h4>
+            </div>
+
+            <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in" data-aos-delay="200">
+                <span>03</span>
+                <h4>Заключение договора на оказание услуг</h4>
+            </div>
+
+            <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in" data-aos-delay="300">
+                <span>04</span>
+                <h4>Поиск автомобиля по заданным параметрам</h4>
+            </div>
+
+            <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in" data-aos-delay="400">
+                <span>05</span>
+                <h4>Юридическая и техническая проверка автомобиля + проверка на подъёмнике</h4>
+            </div>
+
+            <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in" data-aos-delay="500">
+                <span>06</span>
+                <h4>Покупка автомобиля и сопровождение сделки</h4>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section id="features" class="features">
+    <h3 data-aos="fade-up" align="center">Почему с нами выгоднее</h3><br>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-4 mb-5 mb-lg-0" data-aos="fade-right">
+                <ul class="nav nav-tabs flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
+                            <h4>Работаем БЕЗ ПРЕДОПЛАТЫ</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item mt-2">
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
+                            <h4>Только ПРОФЕССИОНАЛЬНОЕ оборудование</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item mt-2">
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
+                            <h4>БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item mt-2">
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
+                            <h4>Гарантия на выполненные работы</h4>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-7 ml-auto" data-aos="fade-left">
+                <div class="tab-content">
+                    <div class="tab-pane active show" id="tab-1">
+                        <figure>
+                            <img src='{% static "assets/img/features-1.png" %}' alt="" class="img-fluid">
+                        </figure>
+                    </div>
+                    <div class="tab-pane" id="tab-2">
+                        <figure>
+                            <img src='{% static "assets/img/features-2.png" %}' alt="" class="img-fluid">
+                        </figure>
+                    </div>
+                    <div class="tab-pane" id="tab-3">
+                        <figure>
+                            <img src='{% static "assets/img/features-3.png" %}' alt="" class="img-fluid">
+                        </figure>
+                    </div>
+                    <div class="tab-pane" id="tab-4">
+                        <figure>
+                            <img src='{% static "assets/img/features-4.png" %}' alt="" class="img-fluid">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="faq" class="faq section-bg">
+    <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+            <h2>Что мы проверяем?</h2>
+        </div>
+
+        <div class="faq-list">
+            <ul>
+                <li data-aos="fade-up">
+                    <i class="bx bx-help-circle icon-help"></i><a data-bs-toggle="collapse" class="collapse"
+                                                                  data-bs-target="#faq-list-1">Проверка кузова<i
+                        class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                        <p>
+                            1. Толщина лкп и наличие шпаклевки<br>
+                            2. Симметричность зазоров<br>
+                            3. Оригинальность сварных швов<br>
+                            4. Проверка оригинальности VIN номера и площадки, на которую нанесён VIN номера<br>
+                            5. Оригинальность маркировочных наклеек/табличек<br>
+                            6. Оригинальность резиновых уплотнителей<br>
+                            7. Геометрия кузова<br>
+                            8. Проверка кузова на дефекты<br>
+                            9. Проверка личинок дверей
+                        </p>
+                    </div>
+                </li>
+
+                <li data-aos="fade-up" data-aos-delay="100">
+                    <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
+                                                                   data-bs-target="#faq-list-2" class="collapsed">Диагностика
+                    двигателя<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                        <p>
+                            1. Уровень масла<br>
+                            2. Опоры ДВС<br>
+                            3. Посторонние шумы и вибрации<br>
+                            4. Электронная диагностика<br>
+                            5. Состоянии цепи и ремня ГРМ<br>
+                            6. Компрессия<br>
+                            7. Масляные течи<br>
+                            8. Охлаждение ДВС<br>
+                            9. Работоспособность датчиков<br>
+                            10. Номер двигателя
+                        </p>
+                    </div>
+                </li>
+
+                <li data-aos="fade-up" data-aos-delay="200">
+                    <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
+                                                                   data-bs-target="#faq-list-3" class="collapsed">Проверка
+                    КПП<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                        <p>
+                            1. Уровень и состояние масла<br>
+                            2. Наличие металлической стружки в АКПП<br>
+                            3. Состояние сцепления и выжимного подшипника МКПП<br>
+                            4. Состояние мехатроника и дисков сцепления DSG<br>
+                            5. Состояние вариатора<br>
+                            6. Состояние сцепления роботизированной КПП
+                        </p>
+                    </div>
+                </li>
+
+                <li data-aos="fade-up" data-aos-delay="300">
+                    <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
+                                                                   data-bs-target="#faq-list-4" class="collapsed">Подвеска<i
+                        class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                        <p>
+                            1. Проверка амортизаторов<br>
+                            2. Опорные подшипники передних стоек<br>
+                            3. Пружины передней и задней подвески<br>
+                            4. Проверка рычагов передней и задней подвески<br>
+                            5. Сайлентблоки рычагов передней и задней подвески<br>
+                            6. Сайлентблоки подрамника<br>
+                            7. Проверка шаровых опор<br>
+                            8. Стойки стабилизаторов<br>
+                            9. Втулки стабилизаторов
+                        </p>
+                    </div>
+                </li>
+
+                <li data-aos="fade-up" data-aos-delay="400">
+                    <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
+                                                                   data-bs-target="#faq-list-5" class="collapsed">Тормозная
+                    система<i class="bx bx-chevron-down icon-show"></i><i
+                            class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                        <p>
+                            1. Степень износа тормозных колодок<br>
+                            2. Степень износа тормозных дисков<br>
+                            3. Тормозные суппорта<br>
+                            4. Состояние тормозных шлангов<br>
+                            5. Трос ручного тормоза<br>
+                            6. Проверка работы ручного тормоза<br>
+                            7. Уровень тормозной жидкости
+                        </p>
+                    </div>
+                </li>
+
+                <li data-aos="fade-up" data-aos-delay="300">
+                    <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
+                                                                   data-bs-target="#faq-list-6" class="collapsed">Рулевое
+                    управление<i class="bx bx-chevron-down icon-show"></i><i
+                            class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="faq-list-6" class="collapse" data-bs-parent=".faq-list">
+                        <p>
+                            1. Рулевая рейка<br>
+                            2. Рулевые наконечники<br>
+                            3. Рулевые тяги<br>
+                            4. Уровень жидкости ГУР<br>
+                            5. Герметичность ГУР<br>
+                            6. Посторонние шумы при работе ГУР
+                        </p>
+                    </div>
+                </li>
+
+                <li data-aos="fade-up" data-aos-delay="300">
+                    <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
+                                                                   data-bs-target="#faq-list-7" class="collapsed">Турбина
+                    и система впуска двигателя<i class="bx bx-chevron-down icon-show"></i><i
+                            class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="faq-list-7" class="collapse" data-bs-parent=".faq-list">
+                        <p>
+                            1. Проверка дроссельного узла<br>
+                            2. Работоспособность датчиков впускной системы<br>
+                            3. Проверка герметичности системы впуска<br>
+                            4. Проверка давления наддува турбины<br>
+                            5. Проверка наличия подтёков масла и общее состояние турбины
+                        </p>
+                    </div>
+                </li>
+
+                <li data-aos="fade-up" data-aos-delay="300">
+                    <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
+                                                                   data-bs-target="#faq-list-8" class="collapsed">Выпускная
+                    система<i class="bx bx-chevron-down icon-show"></i><i
+                            class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="faq-list-8" class="collapse" data-bs-parent=".faq-list">
+                        <p>
+                            1. Проверка выпускного коллектора<br>
+                            2. Проверка кислородного датчика (лямбда-зонд)<br>
+                            3. Проверка гофры глушителя
+                        </p>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<section id="services" class="services section-bg">
+    <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+            <h2>Цены и услуги</h2>
+            <p>В 99 % случаев услуги по автоподбору являются бесплатными для заказчика, т.к. выявленные недостатки и
+                нюансы позволяют аргументированно снизить цену автомобиля.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up">
+                <div class="icon-box icon-box-pink">
+                    <h4 class="title">Подбор автомобиля под ключ</h4>
+                    <h4 class="title">от 15 000 ₽</h4>
+                    <p class="description">(Проверка неограниченного количество автомобилей)
+                        Мы подберём и проверим по всем параметрам автомобиль, исходя из Ваших пожеланий. Работаем по
+                        договору.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
+                 data-aos-delay="100">
+                <div class="icon-box icon-box-cyan">
+                    <h4 class="title">Разовая проверка авто с выездом автоэксперта</h4>
+                    <h4 class="title">3 000 ₽</h4>
+                    <p class="description">(Полная проверка автомобиля с заключением)
+                        Мы досконально проверим автомобиль при Вас или же отправим фото - видео отчёт в любой
+                        мессенджер.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
+                 data-aos-delay="200">
+                <div class="icon-box icon-box-green">
+                    <h4 class="title">Автоэксперт на день с личным авто</h4>
+                    <h4 class="title">от 12 000 ₽</h4>
+                    <p class="description">(Все передвижения происходят на авто эксперта)
+                        Проверка неограниченного количества авто в течение дня вместе с Вами. В среднем это 5 - 7
+                        автомобилей.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 d-flex align-items-center mb-5 mb-lg-0" data-aos="fade-up"
+                 data-aos-delay="300">
+                <div class="icon-box icon-box-blue">
+                    <h4 class="title">Подбор коммерческого транспорта</h4>
+                    <h4 class="title">от 30 000 ₽</h4>
+                    <p class="description">(Приобретение лотов с торговых плошядок! Спецтехника и авто. Проверка
+                        неограниченного количество автомобилей) Мы подберём и проверим по всем параметрам
+                        автомобиль, исходя из Ваших пожеланий. Работаем по договору.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+            <h2>Контакты</h2>
+        </div>
+
+        <div class="row no-gutters justify-content-center" data-aos="fade-up">
+
+            <div class="col-lg-5 d-flex align-items-stretch">
+                <div class="info">
+                    <div class="address">
+                        <i class="bi bi-geo-alt"></i>
+                        <h4>Мы находимся:</h4>
+                        <p>рес. Марий Эл, г. Йошкар-Ола</p>
+                    </div>
+
+                    <div class="email mt-4">
+                        <i class="bi bi-envelope"></i>
+                        <h4>Email:</h4>
+                        <p>s07slavik@list.ru</p>
+                    </div>
+
+                    <div class="phone mt-4">
+                        <a href="#"><i class="bi bi-phone"></i></a>
+                        <h4>Телефон:</h4>
+                        <a href="tel:+79049059111" target="_blank">+7 (904) 905-91-11</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-5 d-flex align-items-stretch">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa486a6ac1406196edff375291708f3a14b633feb07781019e78f854558338826&amp;source=constructor"
+                        width=100% frameborder="0"></iframe>
+            </div>
+        </div>
+    </div><br><br><br><br>
+
+
+<!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Заполните форму</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    {% if messages %}
+                    {% for message in messages %}
+                    {% if message.tags == 'error' %}
+
+                    <div class="alert alert-danger" style="width: 30%" role="alert">
+                        {{ message }}
+                    </div>
+
+                    {% else %}
+                    <div class="alert alert-{{ message.tags }}" role="alert">
+                        {{ message }}
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                    {% else %}
+                    {% endif %}
+                    <div class="row mt-5 justify-content-center" data-aos="fade-up">
+                        <div class="col-lg-10">
+                            <form method="post">
+                                {% csrf_token %}
+                                {{ form.as_p }}
+                                <div class="text-center">
+                                    <button type="submit" style="background-color: #1bac91"
+                                            class="btn btn-primary btn-block">
+                                        Отправить
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center text-md-left" data-aos="fade-up">
+        <button type="button" class="btn btn-primary" style="background-color: #1bac91" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
+            Оставить заявку
+        </button>
+    </div>
+
+</section>
+{% endblock %}
